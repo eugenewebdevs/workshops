@@ -8,7 +8,7 @@ function apiCall(){
     $ch = curl_init(); 
 
     // set url 
-    curl_setopt($ch, CURLOPT_URL, "http://antoniowp.idxsandbox.com/tools/wrapper_tester/index.php"); 
+    curl_setopt($ch, CURLOPT_URL, "https://s3-us-west-2.amazonaws.com/eugenewebdevs/workshops-2019/sample.json"); 
 
     //return the transfer as a string 
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1); 
