@@ -1,26 +1,29 @@
-# Eugene Web Devs Workshops 2019
+# Eugene Web Devs: Workshops 2019
 
 ## About
 
-These workshops are aimed at bringing new aspects of web development. While databzses and user interface have been a long time staple of web development, new technologies are emerging as relevent to todays web development tool box. Amazon Web Services are pushing the boundries of web devlopment with services targeting scalablke use with little operations setup or matainace. Additionally the rise of a voice interface is yet another facet of the web experiance.
+These workshops aim at bringing new aspects of web development to the foreground. While traditional databases and user interfaces are a long time staple of the web, new solutions that emerged recently became very useful tools for web developers.
 
-The goal of the workshops is to expose these technologies to web developers that might have yet to dive into this new chapter of the web.
+Amazon Web Services (AWS) are pushing the boundaries of web development with scalable services which require very little setup and maintenance. Additionally, the rise of voice-user interfaces is yet another facet of the web experience.
 
-These are entery level workshops. All code will be provided and there will be members of the Eugene Web Dvs community on hand to help out with questions.
+Our goal with these workshops is to expose these technologies to web developers that might have yet to dive into this new chapter of the web.
 
-These will be free and any services used in aws will be ithin the free tier of use.
+The content of these workshops is entry level. There will be members of the Eugene Web Devs community on hand to help out with questions. All code will be provided.
 
-So far two are planned.
-First AWS micro service and first alexa skill.
+Attendance to the workshops is free. Any use of AWS will be within the free tier so that participants will be able to use these services at no cost.
 
-See the folders in this repo for mare docs on each workshop.
+## Schedule
 
-## Requirements
+So far, two workshops are planned.
+1. [Set up your own microservice with Lambda and API Gateway](./microservice)
+2. [Create your first Alexa skill](./alexa)
 
-* A laptop (hopefully charged whne you come)
-* An AWS account
-* A very basic knowledge of the coding languages offered (node, php, python, go)
+See the folders in this repo for more docs on each workshop.
 
+## Before the workshop
 
+You will need the following things to attend a workshop.
 
-
+* A laptop at full charge
+* Your own [AWS account](https://aws.amazon.com/premiumsupport/knowledge-center/create-and-activate-aws-account/)
+* Basic knowledge of a least one of the multiple [programming languages supported by the Lambda runtime](https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html)
