@@ -1,3 +1,0 @@
-# Alexa Workshop
-
-In Progress..
