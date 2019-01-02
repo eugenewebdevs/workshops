@@ -1,26 +1,26 @@
-# Workshops
+# Eugene Web Devs: Workshops
 
 ## About
 
-Eugene Web Devs is trying our workshops this year.
+[Eugene Web Devs](https://eugenewebdevs.com/) is putting together tech workshops this year!
 
-The plan is to try three workshops with the following goals.
+The plan is to have three workshops with the following goals.
 
-* Introduce more web devs to cloud services (mainly AWS because of ease of set up and FREE tier services)
-* Introduce to web devs to inteaction byond the front end web site or the back database
-* Collaberation with various other meet ups and groups with in the Eugene communiity
+* Introduce more web developers to cloud services (mainly AWS because of ease of set up and free tier services)
+* Introduce web developers to interactions beyond front end or back end
+* Collaboration with various other meetup groups within the Eugene community
 
 ## Contributing
 
-Anyone wanting to help is welcome. This can be helping with a workshop, helping promote a workshop, or sponsorship.
+Anyone wanting to help is welcome to contribute to this initiative. You can help with the organization of a workshop, promoting a workshop, or sponsorship.
 
-Contact Eugene Web Devs to let us know what you are interested in providing.
+Contact Eugene Web Devs to tell us what you are interested in providing.
 
 ## Workshop Commitments
 
-Each workshop is commited to providing the following:
+Each workshop is committed to providing the following:
 
-* An explination of the goals of the workshop
+* An explanation of the goals of the workshop
 * A list of requirements before the workshop
-* Hands on help during the workshop
-* An always avaibale (here on GitHub) document based representation of the workshop
+* Hands-on help during the workshop
+* Documentation on the workshop, always avaibale here on GitHub
