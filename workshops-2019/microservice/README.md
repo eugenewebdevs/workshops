@@ -2,7 +2,7 @@
 
 ## About
 
-We will leverage AWS in this workshop due to the ease of set up of these services and the free tier offer.
+We will leverage aws in this workshop due to the ease of set up of these services and the free tier offer.
 
 Only the Lambda and API Gateway services will be used in the context of this workshop. However, AWS makes it easy to add other services like [S3](https://aws.amazon.com/s3/) and [DynamoDB](https://aws.amazon.com/dynamodb/) for data storage, as well as over 50 other services.
 
@@ -10,11 +10,15 @@ The aim of the workshop is to use AWS to acess, consume, and return data from AW
 
 The following S3 endpoint returns a simple JSON response for the inital connection: https://s3-us-west-2.amazonaws.com/eugenewebdevs/workshops-2019/sample.json
 
+No additional libraies or packages are imported unless added via a custom runtime layer.
+
 ## Lambda
 
 Lambda is a compute service which executes small bits of code very quickly.
 
 Lambdas are functions that should be small and stateless.
+
+Many languages are supported nativly and more via layers. See the README in the lambdas directory in this repo for more and specific languages.
 
 Lambdas in AWS has a free tier. This is a monthly tier.
 
