@@ -11,4 +11,4 @@ Lambda layers all custom runtimes to be used. In this example we are adding PHP.
 
 You can download the custom runtime here: https://github.com/antonioortegajr/PHP-Lambda-Runtime
 
-
+Alertantivly you can install [SAMS](https://github.com/awslabs/serverless-application-model) and the aws CLI on your local machine. Then upload back to aws.
