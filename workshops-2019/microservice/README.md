@@ -37,3 +37,7 @@ These endpoints should be descriptive of the data they return.
 🆓 API Gateway has a free tier.
  
 1 million API calls recieved per month.
+
+## Required
+
+You will need a valid aws account. to access the services. This workshop will not be using [SAMS](https://github.com/awslabs/serverless-application-model)
