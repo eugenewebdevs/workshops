@@ -2,21 +2,21 @@
 
 ## Required
 
-You will need a valid [aws account](https://aws.amazon.com/free/) to access the services. 
+You will need a valid [AWS account](https://aws.amazon.com/free/) to access the services. 
 
 ## About
 
-We will leverage aws in this workshop due to the ease of set up of these services and the free tier offer. 🎉
+We will leverage AWS in this workshop due to the ease of set up of these services and the free tier offer. 🎉
 
 [Meetup link](https://www.meetup.com/eugenewebdevs/events/257692027/)
 
-Only the Lambda and API Gateway services will be used in the context of this workshop. However, AWS makes it easy to add other services like [S3](https://aws.amazon.com/s3/) and [DynamoDB](https://aws.amazon.com/dynamodb/) for data storage 💾, as well as over 50 other services.
+Only the Lambda and API Gateway services will be used in the context of this workshop. However, a makes it easy to add other services like [S3](https://aws.amazon.com/s3/) and [DynamoDB](https://aws.amazon.com/dynamodb/) for data storage 💾, as well as over 50 other services.
 
-The aim of the workshop is to use AWS to acess, consume, and return data from AWS and a third party REST API. [Slides](https://slides.com/antonioortega-1/aws-microservice-workshop_
+The aim of the workshop is to use AWS to access, consume, and return data from AWS and a third party REST API. [Slides](https://slides.com/antonioortega-1/aws-microservice-workshop_
 
-The following S3 endpoint 🔗 returns a simple JSON response for the inital connection: https://s3-us-west-2.amazonaws.com/eugenewebdevs/workshops-2019/sample.json
+The following S3 endpoint returns a simple JSON response for the inital connection: https://s3-us-west-2.amazonaws.com/eugenewebdevs/workshops-2019/sample.json 🔗
 
-No additional libraies 📕 or packages 🎁 are imported unless added via a custom runtime layer.
+No additional libraries 📕 or packages 🎁 are imported unless added via a custom runtime layer.
 
 This workshop will not be covering [SAMS](https://github.com/awslabs/serverless-application-model)
 

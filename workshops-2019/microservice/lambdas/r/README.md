@@ -12,4 +12,4 @@ Lambda layers all custom runtimes to be used. In this example we are adding R.
 
 You can download the custom runtime here: https://github.com/bakdata/aws-lambda-r-runtime
 
-Alertantivly you can install [SAMS](https://github.com/awslabs/serverless-application-model) and the aws CLI on your local machine. Then upload back to aws.
+Alertantivly you can install [SAMS](https://github.com/awslabs/serverless-application-model) and the AWS CLI on your local machine. Then upload back to aws.
