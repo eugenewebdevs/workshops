@@ -8,6 +8,8 @@ You will need a valid [aws account](https://aws.amazon.com/free/) to access the 
 
 We will leverage aws in this workshop due to the ease of set up of these services and the free tier offer. 🎉
 
+[Meetup link](https://www.meetup.com/eugenewebdevs/events/257692027/)
+
 Only the Lambda and API Gateway services will be used in the context of this workshop. However, AWS makes it easy to add other services like [S3](https://aws.amazon.com/s3/) and [DynamoDB](https://aws.amazon.com/dynamodb/) for data storage 💾, as well as over 50 other services.
 
 The aim of the workshop is to use AWS to acess, consume, and return data from AWS and a third party REST API. [Slides](https://slides.com/antonioortega-1/aws-microservice-workshop_

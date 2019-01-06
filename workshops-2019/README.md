@@ -8,7 +8,7 @@ Amazon Web Services (AWS) are pushing the boundaries of web development with sca
 
 Our goal with these workshops is to expose these technologies to web developers that might have yet to dive into this new chapter of the web.
 
-The content of these workshops is entry level. There will be members of the Eugene Web Devs community on hand to help out with questions. All code will be provided.
+The content of these workshops is entry level. There will be members of the Eugene Web Devs community on hand to help out with questions. Code samples will be provided.
 
 Attendance to the workshops is free. Any use of AWS will be within the free tier so that participants will be able to use these services at no cost.
 
@@ -26,4 +26,4 @@ You will need the following things to attend a workshop.
 
 * A laptop at full charge
 * Your own [AWS account](https://aws.amazon.com/premiumsupport/knowledge-center/create-and-activate-aws-account/)
-* Basic knowledge of a least one of the multiple [programming languages supported by the Lambda runtime](https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html)
+* Basic knowledge of a least one of the multiple [programming languages supported by the Lambda runtime](https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html) or a mentioned custom runtime. See each workshop for mentiones of custom runtimes.
