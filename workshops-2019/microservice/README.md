@@ -45,3 +45,64 @@ These endpoints should be descriptive of the data they return.
 🆓 API Gateway has a free tier.
  
 1 million API calls recieved per month.
+
+## Use
+
+This README explains the very basic microserivce using Lambda, API Gateway, and an IAM Role.
+See below for steps.
+
+## Steps in Workshop
+
+The goal is to consume data from a super simple external source in less that 40 easy steps!
+
+Things to know: There is a lot more to the IAM roles (that could a week of workshops) and the API Gateway settings have a lot of steps but none of them are code. Lambda has few steps and after those it's all about the code.
+
+### Log in
+1. Log into your AWS account
+
+## IAM Role
+2. Click on the "Services" drop down located in the top left of the AWS page.
+3. Search for the IAM service and navegate to that area.
+4. Click on Roles.
+5. Click the Create Role button.
+6. Click Lambda.
+7. Choose all default settings until you are able to name the role.
+8. Name the role "workshopRole" (or something else you will rememeber).
+
+### Create a new Lambda
+
+9. Click on the services drop down located in the top left of the AWS page.
+10. Search for the Lambda service and navegate to that area.
+11. Click the Create Function button.
+12. Name the new lambda "workshopLambda" (or something else you will rememeber).
+13. Choose your runetime. If you choose a custom runtime like PHP or R you will need a layer later on.
+14. Choose the IAM role we created earlier. (This is the "Exisitng Role" setting).
+15. Click the Create Function button.
+
+### Create API Endpoint via API Gateway
+
+16. Click on the services drop down located in the top left of the AWS page.
+17. Search for the API Gateway service and navegate to that area.
+18. Click the Create API buttom (leave all the other settings default).
+19. Name you new API "workshopApi" (or something else you will rememeber).
+20. Click on the Action button for a pull down.
+21. Click "Create Resource".
+22. Name you new resource "workshop" (or something else you will rememeber).
+23. Click on the resource you just created.
+24. Click "Create Resource" (leave all the other settings default).
+25. Click on the Action button for a pull down.
+26. Click "Create Method".
+27. In the pull down that appears choose "GET".
+28. Click "Create Method".
+29. Click on the GET you just created and go to the "Integration Request" area.
+30. In the settings "Integration type" = "Lambda Function", "Lambda Region" = "us-west-2" and "Lambda Function" = the lambda you already created.
+31. Click "Mapping Templates" to expand the settings.
+32. Under "Content-Type" click "Add mapping template".
+33. Set the mapping template to "application/json".
+34. The "Generate template" area will appear and choose "Method request passtrough from the drop down.
+35. Click on the Action button for a pull down.
+36. Click "Deploy API".
+
+It's just that easy!
+
+After this set up you can start exploring bringing in data from other APIs or other AWS serivces. This will be the hands on section of the workshop.
