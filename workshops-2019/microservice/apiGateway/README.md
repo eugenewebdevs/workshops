@@ -8,13 +8,19 @@ A GET and or POST method will be set up. This will pass through any data using t
 
 ## Use
 
-API Gateway only has a few parts.
+API Gateway only has a few parts to each method in a resource.
 
-1. Method Request - Recieves the http request
-2. Integration Request - Transforms the request before sending to AWS service
-3. Send to AWS services (in this case lambda) - invokes event for another AWS service
-4. Integration Response - Transform the response before sending back to the requestor
-5. Method Response - Respond with http codes in a RESTful fashion
+A "Resource" is like the parent directory. Withthe abiltiy to have children. This if mainly for organization and to allow the API consumers to know what data they are getting from a REst endpoint. Each Resource can have a Method. "GET, PUT, POST, PATCH, OPTIONS, HEAD, and DELETE".
+These are to further organize interactions with your API. All of this is modeled after [REST](https://docs.aws.amazon.com/apigateway/api-reference/index.html).
+
+
+### Parts of a API Gateway Endpoint
+
+1. Method Request - Recieves the http request.
+2. Integration Request - Transforms the request before sending to AWS service.
+3. Send to AWS services (in this case lambda) - invokes event for another AWS service.
+4. Integration Response - Transform the response before sending back to the requestor.
+5. Method Response - Respond with http codes in a RESTful fashion.
 
 There is no code to set up an endpoint, but you can add logic in the transformation parts of the service.
 

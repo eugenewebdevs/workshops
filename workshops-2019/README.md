@@ -22,10 +22,8 @@ See the folders in this repo for more docs on each workshop.
 
 ## Before the workshop
 
-You will want the following things when attending this workshop.
+You will want the following things when attending this workshop:
 
 * A laptop at full charge
 * Your own [AWS account](https://aws.amazon.com/premiumsupport/knowledge-center/create-and-activate-aws-account/)
 * Basic knowledge of a least one of the multiple [programming languages supported by the Lambda runtime](https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html) or a mentioned custom runtime. See each workshop for mentiones of custom runtimes.
-
-
