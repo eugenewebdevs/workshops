@@ -22,8 +22,38 @@ See the folders in this repo for more docs on each workshop.
 
 ## Before the workshop
 
-You will need the following things to attend a workshop.
+You will want the following things when attending this workshop.
 
 * A laptop at full charge
 * Your own [AWS account](https://aws.amazon.com/premiumsupport/knowledge-center/create-and-activate-aws-account/)
 * Basic knowledge of a least one of the multiple [programming languages supported by the Lambda runtime](https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html) or a mentioned custom runtime. See each workshop for mentiones of custom runtimes.
+
+## Steps in Workshop
+
+Consume data from a super simple external source in less that 100 easy steps!
+
+### Log in
+1. Log into your AWS account
+
+## IAM Role
+2. Click on the services drop down located in the top left of the AWS page
+3. Search for the IAM service and navegate to that area
+4. Click on Roles
+5. Click the Create Role button
+6. Click Lambda
+7. Choose all default settings until you are able to name the role
+8. Name the role "workshopRole" (or something else you will rememeber)
+
+### Create a new Lambda
+
+9. Click on the services drop down located in the top left of the AWS page
+10. Search for the Lambda service and navegate to that area
+11. Click the Create Function button
+12. Name the new lambda "workshopLambda" (or something else you will rememeber)
+
+
+### Create API Endpoint via API Gateway
+
+
+
+
