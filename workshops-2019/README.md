@@ -2,7 +2,7 @@
 
 ## About
 
-These workshops aim at bringing new aspects of web development to the foreground. While traditional databases and user interfaces are a long time staple of the web, new solutions that emerged recently became very useful tools for web developers.
+These workshops aim at bringing new aspects of web development to the foreground. While traditional databases and user interfaces are a long time staple of the web, newly emerged solutions have become very useful for web developers.
 
 Amazon Web Services (AWS) are pushing the boundaries of web development with scalable services which require very little setup and maintenance. Additionally, the rise of voice-user interfaces is yet another facet of the web experience.
 

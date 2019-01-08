@@ -25,4 +25,4 @@ Each workshop is committed to providing the following:
 * An explanation of the goals of the workshop. 📄
 * A list of requirements before the workshop. ☑️
 * Hands-on help during the workshop. 🙌
-* Documentation and links to resources on the workshop, always avaibale here on GitHub.  :octocat:
+* Documentation and links to resources on the workshop, always available here on GitHub.  :octocat:
