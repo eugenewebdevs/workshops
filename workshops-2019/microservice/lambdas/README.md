@@ -10,7 +10,7 @@ Some are native to AWS and others use AWS layers for a custom runtime 🏃⏰.
 
 None of the examples use any packages or libraries outside the runtime.
 
-If you would like to use a package manager like npm, pip you can use AWS [cloud9](https://aws.amazon.com/cloud9/). This will spin up a EC2 instance with :shipit:[SAMS](https://github.com/awslabs/serverless-application-model) installed. You can then install what you like, test and depoly back to your lambdas.
+If you would like to use a package manager like npm, pip you can use AWS [cloud9](https://aws.amazon.com/cloud9/). This will spin up a EC2 instance with :shipit:[SAMS](https://github.com/awslabs/serverless-application-model) installed. You can then install what you like, test and deploy back to your lambdas.
 
 
 ## Use
