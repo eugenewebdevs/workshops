@@ -1,5 +1,5 @@
 exports.handler = async function(event, context) {
-    const url = 'https://s3-us-west-2.amazonaws.com/eugenewebdevs/workshops-2019/sample.json';
+    const url = 'https://api.themoviedb.org/3/discover/movie?api_key=372f168ae29875f30eb9f0cda74358c1';
 
     try {
         const response = await fetch(url);

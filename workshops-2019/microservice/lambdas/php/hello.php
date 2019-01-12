@@ -8,7 +8,7 @@ function apiCall(){
     $ch = curl_init(); 
 
     // set url 
-    curl_setopt($ch, CURLOPT_URL, "https://s3-us-west-2.amazonaws.com/eugenewebdevs/workshops-2019/sample.json"); 
+    curl_setopt($ch, CURLOPT_URL, "https://api.themoviedb.org/3/discover/movie?api_key=372f168ae29875f30eb9f0cda74358c1"); 
 
     //return the transfer as a string 
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1); 

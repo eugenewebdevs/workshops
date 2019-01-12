@@ -14,7 +14,9 @@ Lambda and API Gateway services will be used in the context of this workshop. Ho
 
 The aim of this workshop is to use AWS to access, consume, and return data from AWS and a third party REST API. [Slides](https://slides.com/antonioortega-1/aws-microservice-workshop)
 
-The following S3 endpoint returns a simple JSON response for the initial connection: https://s3-us-west-2.amazonaws.com/eugenewebdevs/workshops-2019/sample.json
+The following themoviedb.org API endpoint returns a simple JSON response for the initial connection: https://api.themoviedb.org/3/discover/movie?api_key=
+
+A key has been provided for the workshop.
 
 Will be acquiring this data via http request to the above link 🔗
 

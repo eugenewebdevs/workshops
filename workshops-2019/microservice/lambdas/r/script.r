@@ -1,6 +1,6 @@
 library(httr)
 
 handler <- function() {
-        r <- GET("hhttps://s3-us-west-2.amazonaws.com/eugenewebdevs/workshops-2019/sample.json")
+        r <- GET("https://api.themoviedb.org/3/discover/movie?api_key=372f168ae29875f30eb9f0cda74358c1")
         return(content(r, "text"))
 }

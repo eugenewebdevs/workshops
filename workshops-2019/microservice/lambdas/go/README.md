@@ -10,4 +10,12 @@ You will write your go code locally. For simple function like the http request i
 
 You will need to then compile and zip your code. You can then upload to the lambda.
 
+Build your code with 
+`GOOS=linux go build -o main main.go`
+
+Zip your code for upload to AWS 
+
+`zip deployment.zip main`
+
+
 Alternatively, you can install [SAMS](https://github.com/awslabs/serverless-application-model) and the AWS CLI on your local machine. Then upload back to AWS.
