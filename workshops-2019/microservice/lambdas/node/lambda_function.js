@@ -12,7 +12,7 @@ exports.handler = async (event, context) => {
         const req = http.request(options, (res) => {
           res.setEncoding('utf8');    
           res.on('data', function (chunk) {
-             resolve('BODY: ' + chunk);
+             resolve(chunk);
             });
         });
 
