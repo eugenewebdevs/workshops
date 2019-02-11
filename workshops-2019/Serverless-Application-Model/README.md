@@ -17,3 +17,18 @@ There are two ways to set this up.
 
 
 ## Use
+
+### Mac
+
+#### Required
+
+### Linux
+
+#### Required
+
+### Windows
+
+#### Required
+
+* Win 10
+* [Docker](https://hub.docker.com/editions/community/docker-ce-desktop-windows)
