@@ -2,7 +2,7 @@
 
 ## About
 
-AWS (Serverless Application Model)[ (AWS SAM) is how we can develop for AWS serverless in a local envirnemt. We can then push to AWS services like lambda.
+AWS [Serverless Application Model](https://github.com/awslabs/serverless-application-model) (AWS SAM) is how we can develop for AWS serverless in a local envirnemt. We can then push to AWS services like lambda.
 
 There are two ways to set this up.
 
