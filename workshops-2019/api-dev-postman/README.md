@@ -17,7 +17,7 @@ It's in no way required to enjoy and learn at this one.
 
 ## Requirements
 
-* Laptop
+* Laptop (bring charged)
 * Posatman client for desktop installed
 
 ## Use
