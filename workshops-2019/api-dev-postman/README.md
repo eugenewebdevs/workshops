@@ -7,6 +7,12 @@ If you have been interested in learning to consume an API, or you have an API yo
 Our last workshop was focused on setting up an AWS microservice, and this workshop will take your service further, but don't worry if you didn't go to the last worksho. 
 It's in no way required to enjoy and learn at this one.
 
+### Links
+
+[meetup](https://www.meetup.com/eugenewebdevs/events/260157602/)
+[slides]()
+[get postman](https://www.getpostman.com/downloads/)
+
 ## Requirements
 
 * Laptop
