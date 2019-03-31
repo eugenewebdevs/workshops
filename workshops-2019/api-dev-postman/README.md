@@ -29,6 +29,17 @@ Import that mock API collection and make each API request in the collection.
 ## Fun APIs
 
 [Marvel](https://developer.marvel.com/)
+
+[tacos](https://github.com/evz/tacofancy-api)
+
+[BreweryDB](https://www.brewerydb.com/)
+
 [Star Wars](https://swapi.co/)
+
 [NASA](https://api.nasa.gov/api)
+
+[Chuck Norris](https://api.chucknorris.io/)
+
+[pokenmon](https://pokeapi.co/)
+
 [Harry Potter](https://www.potterapi.com/)
