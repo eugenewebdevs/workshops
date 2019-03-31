@@ -25,3 +25,10 @@ It's in no way required to enjoy and learn at this one.
 Check out the slides for the high level info on API needs and how this tool helps.
 
 Import that mock API collection and make each API request in the collection.
+
+## Fun APIs
+
+[Marvel](https://developer.marvel.com/)
+[Star Wars](https://swapi.co/)
+[NASA](https://api.nasa.gov/api)
+[Harry Potter](https://www.potterapi.com/)
