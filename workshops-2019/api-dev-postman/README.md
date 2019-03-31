@@ -18,10 +18,10 @@ It's in no way required to enjoy and learn at this one.
 ## Requirements
 
 * Laptop (bring charged)
-* Posatman client for desktop installed
+* Postman client for desktop installed
 
 ## Use
 
 Check out the slides for the high level info on API needs and how this tool helps.
 
-Import that mosck API collection and make each API call.
+Import that mock API collection and make each API request in the collection.
