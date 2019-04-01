@@ -28,18 +28,19 @@ Import that mock API collection and make each API request in the collection.
 
 ## Fun APIs
 
-[Marvel](https://developer.marvel.com/)
+[Marvel](https://developer.marvel.com/) - The Marvel Comics API is a tool to help developers everywhere create amazing, uncanny and incredible web sites and applications using data from the 70-plus years of the Marvel age of comics. [Get an API key](https://developer.marvel.com/documentation/getting_started)
 
-[tacos](https://github.com/evz/tacofancy-api)
+[tacos](https://github.com/sinker/tacofancy) - This is a community-driven, object-oriented taco recipe repo. Please fork and submit your own recipes, because the more there are, the more delicious it gets.
 
-[BreweryDB](https://www.brewerydb.com/)
+[BreweryDB](https://www.brewerydb.com/) - Don't build your own product database. Use BreweryDB to power your next innovative app. [Get an API key](https://www.brewerydb.com/developers)
 
-[Star Wars](https://swapi.co/)
+[Star Wars](https://swapi.co/) - The Star Wars API, or "swapi" (Swah-pee) is the world's first quantified and programmatically-accessible data source for all the data from the Star Wars canon universe!
 
-[NASA](https://api.nasa.gov/api)
+[NASA](https://api.nasa.gov/api) - Welcome to the NASA API portal. The objective of this site is to make NASA data, including imagery, eminently accessible to application developers. The api.nasa.gov catalog is growing. [Get an API key](https://api.nasa.gov/index.html#apply-for-an-api-key)
 
-[Chuck Norris](https://api.chucknorris.io/)
+[Chuck Norris](https://api.chucknorris.io/) - chucknorris.io is a free JSON API for hand curated Chuck Norris facts
 
-[pokenmon](https://pokeapi.co/)
+[pokenmon](https://pokeapi.co/) - All the Pokémon data you'll ever need in one place,
+easily accessible through a modern RESTful API.
 
-[Harry Potter](https://www.potterapi.com/)
+[Harry Potter](https://www.potterapi.com/) [Get an API key](https://www.potterapi.com/login/#signup)
