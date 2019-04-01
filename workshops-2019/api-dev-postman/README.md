@@ -4,7 +4,7 @@
 
 Thanks to APIs, data has become readily available more than ever. 
 If you have been interested in learning to consume an API, or you have an API you maintain, Postman is the industry standard tool for everything related to APIs. 
-Our last workshop was focused on setting up an AWS microservice, and this workshop will take your service further, but don't worry if you didn't go to the last worksho. 
+Our [last workshop](https://github.com/eugenewebdevs/workshops/tree/master/workshops-2019/microservice) was focused on setting up an AWS microservice, and this workshop will take your service further, but don't worry if you didn't go to the last worksho. 
 It's in no way required to enjoy and learn at this one.
 
 ### Links
@@ -17,14 +17,16 @@ It's in no way required to enjoy and learn at this one.
 
 ## Requirements
 
-* Laptop (bring charged)
-* Postman client for desktop installed
-
+* Laptop (bring charged) 💻
+* Postman client for desktop installed 💾
+ 
 ## Use
 
 Check out the slides for the high level info on API needs and how this tool helps.
 
 Import that mock API collection and make each API request in the collection.
+
+Explore more APIs. Some fun ones are listed below. 🎉🎉
 
 ## Fun APIs
 
