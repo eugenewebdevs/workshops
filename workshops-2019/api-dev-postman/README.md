@@ -44,4 +44,4 @@ Explore more APIs. Some fun ones are listed below. 🎉🎉
 [pokenmon](https://pokeapi.co/) - All the Pokémon data you'll ever need in one place,
 easily accessible through a modern RESTful API.
 
-[Harry Potter](https://www.potterapi.com/) [Get an API key](https://www.potterapi.com/login/#signup)
+[Harry Potter](https://www.potterapi.com/) - [Get an API key](https://www.potterapi.com/login/#signup)
