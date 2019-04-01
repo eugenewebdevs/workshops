@@ -4,10 +4,9 @@
 
 Thanks to APIs, data has become readily available more than ever. 
 If you have been interested in learning to consume an API, or you have an API you maintain, Postman is the industry standard tool for everything related to APIs. 
-Our [last workshop](https://github.com/eugenewebdevs/workshops/tree/master/workshops-2019/microservice) was focused on setting up an AWS microservice, and this workshop will take your service further, but don't worry if you didn't go to the last worksho. 
-It's in no way required to enjoy and learn at this one.
+Our [last workshop](https://github.com/eugenewebdevs/workshops/tree/master/workshops-2019/microservice) was focused on setting up an AWS microservice, and this workshop will take your service further, but don't worry if you didn't go to the last workshop. It's in no way required to enjoy and learn at this one.
 
-### Links
+### Links 🔗
 
 [meetup](https://www.meetup.com/eugenewebdevs/events/260157602/)
 
