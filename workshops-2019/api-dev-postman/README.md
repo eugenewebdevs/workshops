@@ -8,7 +8,7 @@ Our [last workshop](https://github.com/eugenewebdevs/workshops/tree/master/works
 
 We will go over slides covering API needs, then why postman works well for those needs. Then workshop.
 
-The workshop portion will be discovery of a mock API showcasing some of the feartures postman offers. Then we can break into smaller groups focusing further API discovery, API documenting, or API tetsting.
+The workshop portion will be discovery of a mock API showcasing some of the feartures postman offers. Then we can break into smaller groups focusing further API discovery, API distribution, and API tetsting.
 
 ### Links 🔗
 
