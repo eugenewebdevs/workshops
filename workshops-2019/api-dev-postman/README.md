@@ -18,7 +18,7 @@ The workshop portion will be discovery of a mock API showcasing some of the fear
 
 [get postman](https://www.getpostman.com/downloads/)
 
-[workshop mock api](https://antonioortegajr.postman.co/collections/282275-737d3995-25ba-4e7d-a7bb-e4003be936bc?workspace=20814c71-bb36-4d61-94ad-78f160960d60)
+[workshop mock api](https://bit.ly/2VbzIfO)
 
 [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/b79817a092209111dcb3)
 
