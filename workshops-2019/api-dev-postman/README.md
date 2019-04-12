@@ -14,7 +14,7 @@ The workshop portion will be discovery of a mock API showcasing some of the fear
 
 [meetup](https://www.meetup.com/eugenewebdevs/events/260157602/)
 
-[slides]()
+[slides](https://slides.com/antonioortega-1/postman)
 
 [get postman](https://www.getpostman.com/downloads/)
 
