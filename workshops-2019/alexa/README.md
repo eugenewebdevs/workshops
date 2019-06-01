@@ -1,6 +1,6 @@
 # Alexa Workshop
 
-Voice interaction is taking over interactions on the web. "No UI is the new UI" as we skeak directly to macines more and more.
+Voice interaction is taking over interactions on the web. "No UI is the new UI" as we speak directly to machines more and more.
 
 ## About
 
