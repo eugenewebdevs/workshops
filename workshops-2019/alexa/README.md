@@ -23,4 +23,5 @@ The aws alexa service will hande the voice communication.
 
 ## Resources
 
+https://developer.amazon.com/alexa-skills-kit/courses/cake-walk-3
 https://developer.amazon.com/alexa/console/ask
