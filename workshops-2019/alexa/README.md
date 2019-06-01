@@ -15,7 +15,7 @@ Our [API Workshop](https://github.com/eugenewebdevs/workshops/tree/master/worksh
 
 ## Lambda
 
-Teh aws Lambda service will be used to pepare repsponses for an alexa skill.
+The aws Lambda service will be used to pepare repsponses for an alexa skill.
 
 ## Alexa
 
