@@ -5,6 +5,8 @@
 After interpritation of the user request alexa then sends a json payload to lambda.
 Lambda does whatever it's coded to do and reposnds.
 
+The sample lamba looks us the next Eugene Web devs meet and responds with a message for alexa to speak.
+
 ## Use
 
 Lambda will need to return json in the format alexa expects. Building that response is up to lambda.
