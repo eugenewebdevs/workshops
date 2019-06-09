@@ -1,0 +1,64 @@
+{
+  "version": "1.0",
+  "session": {
+    "new": true,
+    "sessionId": "amzn1.echo-api.session.sampleStringGoesHere-sampleStringGoesHere-sampleStringGoesHere-sampleStringGoesHere-sampleStringGoesHere",
+    "application": {
+      "applicationId": "amzn1.ask.skill.sampleStringGoesHere-sampleStringGoesHere-sampleStringGoesHere-sampleStringGoesHere-sampleStringGoesHere"
+    },
+    "user": {
+      "userId": "amzn1.ask.account.sampleStringGoesHere"
+    }
+  },
+  "context": {
+    "System": {
+      "application": {
+        "applicationId": "amzn1.ask.skill.sampleStringGoesHere-sampleStringGoesHere-sampleStringGoesHere-sampleStringGoesHere-sampleStringGoesHere"
+      },
+      "user": {
+        "userId": "amzn1.ask.account.sampleStringGoesHere"
+      },
+      "device": {
+        "deviceId": "amzn1.ask.device.sampleStringGoesHere",
+        "supportedInterfaces": {}
+      },
+      "apiEndpoint": "https://api.amazonalexa.com",
+      "apiAccessToken": "sampleStringGoesHere.sampleStringGoesHere.sampleStringGoesHere-sampleStringGoesHere-sampleStringGoesHere-sampleStringGoesHere-sampleStringGoesHere"
+    },
+    "Viewport": {
+      "experiences": [
+        {
+          "arcMinuteWidth": 246,
+          "arcMinuteHeight": 144,
+          "canRotate": false,
+          "canResize": false
+        }
+      ],
+      "shape": "RECTANGLE",
+      "pixelWidth": 1024,
+      "pixelHeight": 600,
+      "dpi": 160,
+      "currentPixelWidth": 1024,
+      "currentPixelHeight": 600,
+      "touch": [
+        "SINGLE"
+      ],
+      "video": {
+        "codecs": [
+          "H_264_42",
+          "H_264_41"
+        ]
+      }
+    }
+  },
+  "request": {
+    "type": "IntentRequest",
+    "requestId": "amzn1.echo-api.request.sampleStringGoesHere-sampleStringGoesHere-sampleStringGoesHere-sampleStringGoesHere-sampleStringGoesHere",
+    "timestamp": "2019-06-01T22:43:37Z",
+    "locale": "en-US",
+    "intent": {
+      "name": "AMAZON.HelpIntent",
+      "confirmationStatus": "NONE"
+    }
+  }
+}
