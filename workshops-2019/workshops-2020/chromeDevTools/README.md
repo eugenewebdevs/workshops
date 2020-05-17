@@ -50,6 +50,9 @@ JavaScript will be run every page load to look for the expected corrections.
 
 For these tests to be accurate please follow the instructions closely.
 
+All these issues are expected to be viewed in mobile.
+
+
 
 
 
