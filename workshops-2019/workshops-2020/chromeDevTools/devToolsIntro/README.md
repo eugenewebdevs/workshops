@@ -2,7 +2,7 @@
 
 ## About
 
-Chrome provides tools in the browser for developers to better understand waht is going on with web pages in regards to performance and errors. All major browsers provide tools built into the browser.
+Chrome provides tools in the browser for developers to better understand what is going on with web pages in regards to performance and errors. All major browsers provide tools built into the browser.
 
 This workshop will be using the Chrome dev tools however. Latest version of Chrome at the time of teh workshop.
 
@@ -25,15 +25,15 @@ A sample glitch site with issues will be provided to remix in your glitch accoun
 5. Use Audit tab to see suggest5ions on site performance
 
 
-## Steps
+## Workshop Steps
 
-### Opening dev tools
+### Opening Dev Tools
 
 Right click oin the browner and click Inspect
 
 Chrome browser or organized into several tabs.
 
-This workshop we will go over the Element, Console, Network, and audit tabs,
+This workshop we will be using are the Element, Console, Network, and audit tabs,
 
 #### Elements
 
