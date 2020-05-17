@@ -47,7 +47,7 @@ The console tab logs general errors. In this workshop network and javascript err
 
 ### Network
 
-The network tab diagrams all the network activity the browser does. From the first request for a web apge to any referenced resources and ajax requests.
+The network tab diagrams all the network activity the browser does. From the first request for a web page to any referenced resources and ajax requests.
 
 #### Audit
 
