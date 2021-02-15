@@ -6,6 +6,8 @@ Micro services are a great way to get some single purpose logic with out ahving 
 
 In this example we will create a slash command for Slack. This allows yoou to connect Slack to pretty much anything on the web.
 
+This is menat to be a continuation to our 2019 workshop: https://github.com/eugenewebdevs/workshops/tree/master/workshops-2019/microservice
+
 ## Required
 
 * Slack credentails to create a bot and slash command for a workspace
