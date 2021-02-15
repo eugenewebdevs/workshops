@@ -84,7 +84,7 @@ trigger_id	1743263325494.849550333.97f163331d148fbf509c33a9ebed7aa3`
 
 #### Integration Response
 
-In the Integration Response we define the output from API Gateway. This will be whatever was returned from the lambda function. Again we will just send the data back via Method Request Passtrough. (If you are jsut sending back strings and don't need connection/logic you can set this here and do not even need a lambda)
+In the Integration Response we define the output from API Gateway. This will be whatever was returned from the lambda function. Again we will just send the data back via Method Request Passtrough. (If you are just sending back strings and don't need connections/logic you can set this here and do not even need a lambda)
 
 ### Lambda
 
@@ -92,12 +92,11 @@ Lambdas handle our connection to data and any logic we will need. Before we make
 
 * Does this data require auth? If so you will want to look at where to store creds. Lambda does provide env variables, but this might not be the best solution if you need something more complex involving a state machine. See advanced in this doc for more.
 
-* Will this data return quickly? Slack will give you up to ten seconds to respond. If the resources called take longer this will time out with slack.
-response_url may need to be used if this is going to take longer.
+* Will this data return quickly? Slack will give you a few seconds to respond. If the resources called take longer, this connection will time out with Slack and the response_url may need to be used if the process is going to take a bit of time.
 
-In our lambda we recieve data from API Gateway. This is all the data from slack in the example shown above.
+In our lambda we recieve data from API Gateway. This is the data from Slack in the example shown above.
 
-Our Lmabda however will just return data with no direction from Slack. In the lambda directory of this repo is an example lambda (in node) calling for a ramdom taco recipie from an public API.
+Our Lambda (in this exmample) )however will just return data with no direction from Slack. In the lambda directory of this repo is an example lambda (in node) calling for a ramdom taco recipie from an public API.
 
 The json return is sent to Slack as is.
 
@@ -110,7 +109,9 @@ This state machine is invoked by API Gateway and passed the response_url as data
 
 When completed the statemachine fires a Post to Slack at the response url as the slash command repsonse.
 
-This is needed when your slash command does things like getiing data from more than a single source will not respond quickly to Slack. API Gateway can invoke this state machine and respond with a 200. The state machine then has a few seconds to do it's work before reponding the responjse url provided by Slack.
+This is needed when your slash command does things like getiing data from more than a single source/ porcessing and will not respond quickly to Slack. Slack does not like long connections and you need to responod quickly. API Gateway can invoke a state machine and respond to Slack with a 200 right away. The state machine then has a few aditional seconds to do it's work before reponding the response url provided by Slack.
+
+This can also be a useful solution if you find lambda cold starts to be an issue.
 
 Complex processes may require auth and the aws param store might need to be used for storage creds that can be used by more than a single lambda function (as is the case with env variables).
 
