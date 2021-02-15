@@ -50,7 +50,7 @@ Example of data sent by a Slack Post below:
 
 Headers:
 
-connection	close
+`connection	close
 content-type	application/x-www-form-urlencoded
 content-length	418
 x-slack-request-timestamp	1613288918
@@ -58,17 +58,17 @@ x-slack-signature	v0=d3784f23a242ca6edf52fa54f0d525775c80479ef95024b1ea929c13d84
 accept	application/json,*/*
 accept-encoding	gzip,deflate
 user-agent	Slackbot 1.0 (+https://api.slack.com/robots)
-host	webhook.site
+host	webhook.site`
 
 
 Query String:
 
 
-token=DPi5hzwgz9uwVSIK7DVwUWR2&team_id=T08EKEVBL&team_domain=antonioortegajr&channel_id=D1L6RHWD9&channel_name=directmessage&user_id=U08EKFKLL&user_name=antonioortegajr&command=%2Fsup&text=&api_app_id=A01N271NB0T&is_enterprise_install=false&response_url=https%3A%2F%2Fhooks.slack.com%2Fcommands%2FT08EKEVBL%2F1762667355841%2FmD9bBE1jZnUr8o8jvB7dsZRn&trigger_id=1743263825494.8495505394.97f167591d148fbf509c88a9ebed7aa3
+`token=DPi5hzwgz9uwVSIK7DVwUWR2&team_id=T08EKEVBL&team_domain=antonioortegajr&channel_id=D1L6RHWD9&channel_name=directmessage&user_id=U08EKFKLL&user_name=antonioortegajr&command=%2Fsup&text=&api_app_id=A01N271NB0T&is_enterprise_install=false&response_url=https%3A%2F%2Fhooks.slack.com%2Fcommands%2FT08EKEVBL%2F1762667355841%2FmD9bBE1jZnUr8o8jvB7dsZRn&trigger_id=1743263825494.8495505394.97f167591d148fbf509c88a9ebed7aa3`
 
 Params:
 
-token	QPi5hzwgz9uwQSIK7DVwUWR1
+`token	QPi5hzwgz9uwQSIK7DVwUWR1
 team_id	MYTEAMID
 team_domain	antonioortegajr
 channel_id	D1L6RHWD9
@@ -80,7 +80,7 @@ text	(empty)
 api_app_id	A01227NB0T
 is_enterprise_install	false
 response_url	https://hooks.slack.com/commands/T08EKEVBL/1762667355841/mD9bBE1jZnUr8o8jvB7dsZRn
-trigger_id	1743263325494.849550333.97f163331d148fbf509c33a9ebed7aa3
+trigger_id	1743263325494.849550333.97f163331d148fbf509c33a9ebed7aa3`
 
 #### Integration Response
 
