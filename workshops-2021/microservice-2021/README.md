@@ -2,11 +2,11 @@
 
 ## About
 
-Micro services are a great way to get some single purpose logic with out ahving to add servers. AWS makes this very easy and offers this at a totally freee tier.
+Micro services are a great way to get some single purpose logic with out having to add more servers. AWS makes this very easy and offers this at a totally freee tier.
 
-In this example we will create a slash command for Slack. This allows yoou to connect Slack to pretty much anything on the web.
+In this example we will create a slash command for Slack. This allows you to connect Slack to pretty much anything on the web.
 
-This is menat to be a continuation to our 2019 workshop: https://github.com/eugenewebdevs/workshops/tree/master/workshops-2019/microservice
+This is menant to be a continuation to our 2019 workshop: https://github.com/eugenewebdevs/workshops/tree/master/workshops-2019/microservice
 
 ## Required
 
@@ -33,7 +33,6 @@ API Gateway provides a publicly available http endpoint for the slash command to
 * Create a new API choosing REST
 * Create a new resource
 * For this resource add a POST method
-
 
 #### Integration Request
 
@@ -64,7 +63,6 @@ host	webhook.site`
 
 
 Query String:
-
 
 `token=DPi5hzwgz9uwVSIK7DVwUWR2&team_id=T08EKEVBL&team_domain=antonioortegajr&channel_id=D1L6RHWD9&channel_name=directmessage&user_id=U08EKFKLL&user_name=antonioortegajr&command=%2Fsup&text=&api_app_id=A01N271NB0T&is_enterprise_install=false&response_url=https%3A%2F%2Fhooks.slack.com%2Fcommands%2FT08EKEVBL%2F1762667355841%2FmD9bBE1jZnUr8o8jvB7dsZRn&trigger_id=1743263825494.8495505394.97f167591d148fbf509c88a9ebed7aa3`
 
