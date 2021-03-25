@@ -1,0 +1,25 @@
+{
+  "Comment": "A Hello World example of the Amazon States Language using Pass states",
+  "StartAt": "Get Params from Slack",
+  "States": {
+    "Get Params from Slack": {
+      "Type": "Task",
+      "Resource": "arn:aws:lambda:us-west-2:529123413029:function:slackSlashPost",
+      "Next": "Get Taco Data"
+    },
+    "Get Taco Data": {
+      "Type": "Task",
+      "Resource": "arn:aws:lambda:us-west-2:529123413029:function:genericRequestHTTP",
+      "Next": "Return Data to Slack"
+    },
+    "Return Data to Slack": {
+      "Type": "Task",
+      "Resource": "arn:aws:lambda:us-west-2:529123413029:function:slackReturnPost",
+      "Next": "Respond Taco Data"
+    },"Respond Taco Data": {
+      "Type": "Task",
+      "Resource": "arn:aws:lambda:us-west-2:529123413029:function:genericRequestHTTP",
+      "End": true
+    }
+  }
+}

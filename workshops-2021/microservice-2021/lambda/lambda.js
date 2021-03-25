@@ -1,8 +1,8 @@
 const http = require('http');
 
-exports.handler = async (event, context) => {
-    
-    return new Promise((resolve, reject) => {
+exports.handler = async (event) => {
+    // tacofancy API
+    const tacoData = new Promise((resolve, reject) => {
         const options = {
             host: 'taco-randomizer.herokuapp.com',
             path: 'random/?full-taco=true',
@@ -24,4 +24,9 @@ exports.handler = async (event, context) => {
         req.write('data');
         req.end();
     });
-};
+    const dataParsed = JSON.parse(tacoData)
+    
+    const tacoString = `🌮 Recipie: ${dataParsed.name}!! Link to Full 🌮 Recipie: ${dataParsed.url}`;
+
+    return tacoString;
+    };

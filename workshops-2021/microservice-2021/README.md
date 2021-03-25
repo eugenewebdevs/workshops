@@ -4,9 +4,9 @@
 
 Micro services are a great way to get some single purpose logic with out having to add more servers. AWS makes this very easy and offers this at a totally freee tier.
 
-In this example we will create a slash command for Slack. This allows you to connect Slack to pretty much anything on the web.
+In this workshop we will create a slash command for Slack and an external REST API. This allows you to connect Slack to pretty much anything on the web!
 
-This is menant to be a continuation to our 2019 workshop: https://github.com/eugenewebdevs/workshops/tree/master/workshops-2019/microservice
+This is meant to be a update to our [2019 workshop](https://github.com/eugenewebdevs/workshops/tree/master/workshops-2019/microservice) which did not cover step functions.
 
 ## Required
 
@@ -16,11 +16,11 @@ This is menant to be a continuation to our 2019 workshop: https://github.com/eug
 
 ## Slack
 
-Create a bot https://api.slack.com/apps
+[Create a bot](https://api.slack.com/apps) in slack
 
 Create a new slash command (add some temp url for now)
 
-Install to Slack workspace
+Install to your Slack workspace
 
 ## AWS
 
@@ -85,6 +85,10 @@ trigger_id	1743263325494.849550333.97f163331d148fbf509c33a9ebed7aa3`
 #### Integration Response
 
 In the Integration Response we define the output from API Gateway. This will be whatever was returned from the lambda function. Again we will just send the data back via Method Request Passtrough. (If you are just sending back strings and don't need connections/logic you can set this here and do not even need a lambda)
+
+#### Gotachas
+
+Since we have to change the content tyope of application/x-www-form-urlencoded the tester in API gateway will no longer work. An easy workaround is to publish the endpoint and use [postman](https://www.postman.com/).
 
 ### Lambda
 
