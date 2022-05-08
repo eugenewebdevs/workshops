@@ -35,15 +35,20 @@ We will be using the following docker commands
 - `docker help` 
 - `docker login` 
 - `docker pull`
-- `docker compose up`
+- `docker images`
 - `docker ps`
+- `docker compose up`
 - `docker stop` 
 - `docker rm` 
 - `docker rmi` 
 - `docker ps -a`
 
-### Pulling an Image
+### Simple Pulling an Image
 
 Pulling and image saves this on your machine. You can then build the image to a container.
 
 `docker pull hello-world`
+
+### Simple Running an Image
+
+`docker run hello-world`
