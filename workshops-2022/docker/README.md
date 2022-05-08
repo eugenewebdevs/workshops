@@ -1,4 +1,4 @@
-# Docker Workshop
+# Simple Docker Workshop
 
 ## About
 
@@ -22,6 +22,11 @@ The goal of this workshop is top complete the following:
 - Latest Docker installed https://docs.docker.com/get-docker/
 - Dockerhub account (free: https://hub.docker.com/)
 
+## Docker Vocab
+
+- containers: containers hold the programming language and code. This is like a server, but not really... more on that.
+- images: an image is what is produced from a docker file. Containers can be built from images
+
 ## Use
 
 We will be using the following docker commands
@@ -38,5 +43,7 @@ We will be using the following docker commands
 - `docker ps -a`
 
 ### Pulling an Image
+
+Pulling and image saves this on your machine. You can then build the image to a container.
 
 `docker pull hello-world`
