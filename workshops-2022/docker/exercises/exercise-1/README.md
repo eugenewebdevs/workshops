@@ -2,7 +2,7 @@
 
 ## About
 
-This is a very simple application in Go. Since docker will load the go enveirnment we need there is no need to install go on your machine.
+This is a very simple application in Go. Since docker will load the go environment we need there is no need to install go on your machine.
 
 ## Required
 
