@@ -22,6 +22,42 @@ This command has the following parts:
  4. `hello` - This is the local directory containing the Go code
  5. `.` This is the file(s) to copy from your local directory into the image
 
- Then
+ Then to start running the container.
 
  `docker run -p 8080:8080 -t hello`
+
+The localhost endpoint will know be available in the browser at th mapped port.
+
+With a container running we can explore more docker commands.
+
+Let's look at all images we now have:
+
+docker images
+
+And running containers
+
+docker ps
+
+Stop the container
+
+docker stop
+
+Even non running containers
+
+docker ps -a
+
+Now to "clean up" the container
+
+docker rm 
+
+And remove the image
+
+docker rmi
+
+Containers and images can take up a lot of space.
+
+Removing these will help keep space available on your machine.
+
+
+
+
