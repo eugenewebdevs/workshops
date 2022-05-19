@@ -2,7 +2,7 @@
 
 ## About
 
-Let's run docker containers.
+Let's run docker containers. Just a simple "Hello".
 
 This is a very simple application in Go. Since docker will load the go environment we need there is no need to install go on your machine.
 
