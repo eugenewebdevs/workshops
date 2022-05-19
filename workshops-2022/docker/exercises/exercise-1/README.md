@@ -2,6 +2,8 @@
 
 ## About
 
+Let's run docker containers.
+
 This is a very simple application in Go. Since docker will load the go environment we need there is no need to install go on your machine.
 
 ## Required
@@ -10,54 +12,72 @@ This is a very simple application in Go. Since docker will load the go environme
 
 # Use
 
+Make sure docker is running.
+
 In the root of the exercise-1 directory run the docker command:
 
 `docker build -t hello .`
 
-This command has the following parts:
+Let's breakdown the command:
 
- 1. `docker` - this lets your machine know you are using docker
- 2. `build` - this builds an image from a Dockerfile
- 3. `-t` - Allocate a pseudo-tty
- 4. `hello` - This is the local directory containing the Go code
- 5. `.` This is the file(s) to copy from your local directory into the image
+1. `docker` - this lets your machine know you are using docker
+2. `build` - this builds an image from a Dockerfile
+3. `-t` - Allocate a pseudo-tty
+4. `hello` - This is the local directory containing the Go code
+5. `.` This is the file(s) to copy from your local directory into the image
 
- Then to start running the container.
+We can now see the image in the docker images list.
 
- `docker run -p 8080:8080 -t hello`
+`docker images`
 
-The localhost endpoint will know be available in the browser at th mapped port.
+There will be an images named `hello`
 
-With a container running we can explore more docker commands.
+Then to run a container
 
-Let's look at all images we now have:
+`docker run -d -p 8080:8080 -t hello`
 
-docker images
+Your container will be running on port 8080.
 
-And running containers
+Let's breakdown the command:
 
-docker ps
+1. `docker` - this lets your machine know you are using docker
+2. `run` - this runs a container from the docker file in the directory.
+3. `-d` - this tells docker to run the container in the background
+4. `-p` - this will map the port from the host to the container
+5. `-t` - Allocate a pseudo-tty
+6. `hello` - This is the container name to run.
 
-Stop the container
+You can now access the container on port 8080.
 
-docker stop
+`http://localhost:8080/hello`
 
-Even non running containers
+To see containers running on your machine:
 
-docker ps -a
+`docker ps`
 
-Now to "clean up" the container
+(add -a to see all containers)
 
-docker rm 
+This will return something like: 
 
-And remove the image
+`CONTAINER ID   IMAGE     COMMAND    CREATED          STATUS          PORTS                    NAMES`
 
-docker rmi
-
-Containers and images can take up a lot of space.
-
-Removing these will help keep space available on your machine.
+`aa80fad07fb2   hello     "/hello"   14 minutes ago   Up 14 minutes   0.0.0.0:8080->8080/tcp   goofy_roentgen`
 
 
+Now let's ssh into thte container.
 
+`docker exec -it hello bash`
 
+We can now stop the container:
+
+`docker stop hello`
+
+Let clean up:
+
+Reomve the the container:
+
+`docker rm hello`
+
+Remove the image:
+
+`docker rmi hello`
