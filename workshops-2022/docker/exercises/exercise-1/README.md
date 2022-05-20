@@ -63,11 +63,6 @@ This will return something like:
 
 `aa80fad07fb2   hello     "/hello"   14 minutes ago   Up 14 minutes   0.0.0.0:8080->8080/tcp   goofy_roentgen`
 
-
-Now let's ssh into thte container.
-
-`docker exec -it hello bash`
-
 We can now stop the container:
 
 `docker stop hello`
