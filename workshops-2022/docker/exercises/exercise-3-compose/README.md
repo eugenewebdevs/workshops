@@ -23,4 +23,4 @@ control + c to stop the services.
 
 To remove the containers
 
-`docker sompose down` 
+`docker sompose down`
