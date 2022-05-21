@@ -15,7 +15,7 @@ The goal of this workshop is top complete the following:
 - Have another dev pull run your application
 - Create an application in a container that accesses a database in a separate container
 
-This workshop will be done in command line. Docker does provide a GUI to make this resource reusabler in the future dockeer caommands will be used.
+This workshop will be done in command line. Docker does provide a GUI , but to make this resource reusable in the future dockeer caommands will be used.
 
 Feel free to do the exercises at your own pace, but do each one as they are intended to build on each other.
 
@@ -33,7 +33,7 @@ Feel free to do the exercises at your own pace, but do each one as they are inte
 
 ## Use
 
-We will be using the following docker commands
+We will be using soem of the following docker commands
 
 - `docker --version`
 - `docker help` 
@@ -41,8 +41,8 @@ We will be using the following docker commands
 - `docker pull`
 - `docker images`
 - `docker ps`
-- `docker compose up`
 - `docker stop` 
+- `docker compose up`
 - `docker rm` 
 - `docker rmi` 
 - `docker ps -a`
