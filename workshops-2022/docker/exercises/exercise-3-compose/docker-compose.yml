@@ -1,0 +1,10 @@
+version: '3.4'
+services:
+ exercise1:
+    build: ../exercise-1-hello
+    ports:
+          - "8080:8080"
+ exercise2:
+    build: ../exercise-2-dockerize
+    ports:
+          - "80:80"

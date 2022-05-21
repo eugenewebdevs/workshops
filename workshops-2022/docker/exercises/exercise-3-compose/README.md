@@ -1,0 +1,20 @@
+# Exercise 3 - Docker Compose
+
+## About
+
+No that we have a few images created we can now create a docker-compose file to run them.
+
+This file is a YAML file that defines the composition of our application.
+
+in this directory run the fiollwoing command 
+
+`docker compse up`
+
+This will start the services.
+
+You can acccess them just like before.
+
+At:
+`localhost:8080/hello`
+and
+`localhost`
