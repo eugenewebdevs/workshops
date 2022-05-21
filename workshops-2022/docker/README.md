@@ -4,13 +4,11 @@
 
 Docker has become the go to container service in the current web dev industry.
 
-While this is a good move a lack of deep;er experience has arisen.
-
-The workshop is meant for anyone brand new to docker or has used docker but not dockerized a project.
+The workshop is meant for anyone brand new to docker or has used docker, but not dockerized a project.
 
 The goal of this workshop is top complete the following:
 
-- Install and test docker installation
+- Install and test docker installation 🐳
 - Pull and run an image
 - Take a provided application and "dockerize" it.
 - Upload the application to docker hub
@@ -49,12 +47,4 @@ We will be using the following docker commands
 - `docker rmi` 
 - `docker ps -a`
 
-### Simple Pulling an Image
-
-Pulling and image saves this on your machine. You can then build the image to a container.
-
-`docker pull hello-world`
-
-### Simple Running an Image
-
-`docker run hello-world`
+Feel free to do the exercises at your own pace, but do each one as they are intended to build on each other.
