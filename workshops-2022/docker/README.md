@@ -9,11 +9,13 @@ The workshop is meant for anyone brand new to docker or has used docker, but not
 The goal of this workshop is top complete the following:
 
 - Install and test docker installation 🐳
-- Pull and run an image
-- Take a provided application and "dockerize" it.
-- Upload the application to docker hub
-- Have another dev pull run your application
-- Create an application in a container that accesses a database in a separate container
+- Take a provided application and "dockerize" it 🐳
+- Create our own docker image 🐳
+- Run multiple containers 🐳
+- Upload the application to docker hub 🐳
+- Pull and run an image 🐳
+- Have someone pull run your application 🐳
+- Create an application in a container that accesses a database in a separate container 🐳
 
 This workshop will be done in command line. Docker does provide a GUI , but to make this resource reusable in the future dockeer caommands will be used.
 
