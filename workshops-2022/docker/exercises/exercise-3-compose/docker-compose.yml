@@ -1,7 +1,9 @@
 # this is the docker compose version
 version: '3.4'
 
-# these are the services we created earlier
+# These are the services we created earlier
+# We can name the service whatever we like. 
+# We get the build directory and map ports
 services:
  hello:
     build: ../exercise-1-hello
