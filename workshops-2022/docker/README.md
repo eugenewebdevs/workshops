@@ -36,15 +36,22 @@ Feel free to do the exercises at your own pace, but do each one as they are inte
 We will be using soem of the following docker commands
 
 - `docker --version`
-- `docker help` 
-- `docker login` 
-- `docker pull`
 - `docker images`
 - `docker ps`
 - `docker stop` 
 - `docker compose up`
+- `docker login` 
+- `docker pull`
 - `docker rm` 
 - `docker rmi` 
 - `docker ps -a`
+
+Run the following commands to be sure docker is installed:
+
+`docker --version`
+
+If you see a return like:
+
+`Docker version 20.10.14, build a224086`, then you are good to go!
 
 Feel free to do the exercises at your own pace, but do each one as they are intended to build on each other.
