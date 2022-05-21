@@ -2,13 +2,13 @@
 
 ## About
 
-Let's run docker containers. Just a simple "Hello" application.
+Let's run docker containers. Just a simple "Hello" application. 🔰
 
 This is a very simple application in Go. Since docker will load the go environment we need there is no need to install go on your machine. When you run the container it will run the application.
 
 ## Required
 
-- Docker
+- Docker 🐳
 
 # Use
 
@@ -70,14 +70,4 @@ We can now stop the container:
 
 `docker stop hello`
 
-Let clean up some:
-
-Reomve the the container:
-
-`docker rm hello`
-
-Remove the image:
-
-`docker rmi hello`
-
-Images can be large so it is a good idea to remove them after you are done to free up space.
+You now have run a docker container! 🚀
