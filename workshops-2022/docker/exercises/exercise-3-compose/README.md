@@ -18,3 +18,9 @@ At:
 `localhost:8080/hello`
 and
 `localhost`
+
+control + c to stop the services.
+
+To remove the containers
+
+`docker sompose down` 

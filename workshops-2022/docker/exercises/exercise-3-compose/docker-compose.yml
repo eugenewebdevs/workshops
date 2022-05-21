@@ -1,10 +1,13 @@
+# this is the docker compose version
 version: '3.4'
+
+# these are the services we created earlier
 services:
- exercise1:
+ hello:
     build: ../exercise-1-hello
     ports:
           - "8080:8080"
- exercise2:
+ dockerize:
     build: ../exercise-2-dockerize
     ports:
           - "80:80"
