@@ -40,6 +40,16 @@ Now let's ssh into thte container using the name or the ID we saw from `docker p
 
 `docker exec -it <docker container name or ID> sh`
 
+You are now free to expore the container contents. This is a linux container to nomral commands like
+
+`ls`
+
+are avainable. Keep in mind that the container may or may not tools, editors, packages, etc installed. This is upto the creator of the image we are using.
+
 While we can change things in the container to make changes, we should not do that.
 
 Instead we should use run the application locally. Make changes then build an image to share.
+
+Other wise the changes will not be sharable via up;loading an image to the docker hub.
+
+Type `exit` to exit the containter.
