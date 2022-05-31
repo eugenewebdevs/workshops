@@ -16,7 +16,7 @@ Make sure docker is running.
 
 In the exercise-1-hello directory run the docker command:
 
-`docker build -t hello .`
+`docker build ./ -t hello`
 
 Let's breakdown the command:
 
