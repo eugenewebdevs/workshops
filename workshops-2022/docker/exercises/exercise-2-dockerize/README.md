@@ -12,6 +12,20 @@ In this exercise let's set up a simple html page.Then dockerize it. And run on a
 
 We should now have a running container at http://localhost/
 
+## What is going on here
+
+In the Docker file we are using the `FROM` command to bring in the nginx image.
+
+This is an image provided on docker hub.
+
+We copy the code from out local machine into the image.
+
+This is the Copu command. From the directory htmlApp. All files ar copied using the . command.
+
+We copy the contentes into the expect directory for nginx. Using the `/usr/share/nginx/html` command.
+
+Building the image stores all the copyed code in the image. Running the image starts the container.
+
 To see containers running on your machine, in a new terminal:
 
 `docker ps`
@@ -22,7 +36,7 @@ The image is static so any updates to the html file will need a new image to be 
 
 Now let's ssh into thte container.
 
-`docker exec -it hello bash`
+`docker exec -it html-server-image:v1 bash`
 
 While we can change things in the container to make changes, we should not do that.
 
