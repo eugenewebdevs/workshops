@@ -35,18 +35,18 @@ Feel free to do the exercises at your own pace, but do each one as they are inte
 
 ## Use
 
-We will be using soem of the following docker commands
+We will be using some of the following docker very useful commands. These weill be useful in the coming exercises.
 
-- `docker --version`
-- `docker images`
-- `docker ps`
-- `docker stop` 
-- `docker compose up`
-- `docker login` 
-- `docker pull`
-- `docker rm` 
-- `docker rmi` 
-- `docker ps -a`
+- `docker --version` - Prints version of docker installed.
+- `docker images` - See all images on your machine.
+- `docker ps` - See running containers
+- `docker ps -a` - See all containers running ans stopped.
+- `docker stop` - Stop a running container. Takes a container name or ID.
+- `docker compose up` - Runs docker compose.
+- `docker login` - Logins to dockerhub.com
+- `docker pull` - Pulls a docker image onto your machine Takes a image name.
+- `docker rm` - Deletes a stopped docker container. Takes a container name or ID.
+- `docker rmi` - Removes a docker image. Takes a container name or ID.
 
 Run the following commands to be sure docker is installed:
 
