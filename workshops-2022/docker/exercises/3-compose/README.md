@@ -10,11 +10,11 @@ If you use the Linux operating system, Install Docker Compose. https://docs.dock
 
 In this directory run the following command 
 
-`docker compse up`
+`docker compose up`
 
 This will start the services.
 
-You can acccess them just like before.
+You can access them just like before.
 
 At:
 `localhost:8080/hello`
@@ -25,4 +25,4 @@ control + c to stop the services.
 
 To remove the containers
 
-`docker sompose down`
+`docker composes down`
