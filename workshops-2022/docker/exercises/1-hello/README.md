@@ -22,9 +22,10 @@ Let's breakdown the command:
 
 1. `docker` - this lets your machine know you are using docker
 2. `build` - this builds an image from a Dockerfile
-3. `-t` - Allocate a [pseudo-tty](https://stackoverflow.com/questions/30137135/confused-about-docker-t-option-to-allocate-a-pseudo-tty)
-4. `hello` - This is the local directory containing the Go code
-5. `.` This is the file(s) to copy from your local directory into the image
+3. `.` This is the file(s) to copy from your local directory into the image
+4. `-t` - Allocate a [pseudo-tty](https://stackoverflow.com/questions/30137135/confused-about-docker-t-option-to-allocate-a-pseudo-tty)
+5. `hello` - This is the local directory containing the Go code
+
 
 We can now see the image in the docker images list.
 
