@@ -35,7 +35,7 @@ Feel free to do the exercises at your own pace, but do each one as they are inte
 
 ## Use
 
-We will be using some of the following docker very useful commands. These weill be useful in the coming exercises.
+We will be using some of the following docker very useful commands. These will be useful in the coming exercises.
 
 - `docker --version` - Prints version of docker installed.
 - `docker images` - See all images on your machine.
