@@ -44,10 +44,9 @@ Let's breakdown the command:
 1. `docker` - this lets your machine know you are using docker
 2. `run` - this runs a container from the docker file in the directory.
 3. `-d` - this tells docker to run the container in the background
-4. `-p` - this will map the port from the host to the container
-5. `8080:8080` - this maps port 8080 on the host to port 8080 on the container
-6. `-t` - Allocate a pseudo-tty
-7. `hello` - This is the container name to run.
+4. `-p 8080:8080` - this will map the port from the host to the container
+5. `-t` - Allocate a pseudo-tty
+6. `hello` - This is the container name to run.
 
 You can now access the service on port 8080.
 
