@@ -2,9 +2,9 @@ import { createConnection } from 'mysql';
 
 const connection = createConnection({
     host: 'localhost',
-    user: 'root',
-    password: 'helloworld',
-    database: 'testapp'
+    user: 'user',
+    password: 'eugewebdevs',
+    database: 'db'
 })
 
 connection.connect((err) => {
