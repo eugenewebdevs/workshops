@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "fs": "0.0.1-security",
     "mysql": "^2.18.1"
   },
   "type": "module"

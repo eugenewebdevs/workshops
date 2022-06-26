@@ -2,7 +2,7 @@
 
 ## About
 
-A very common use case is running a database in a container.
+A very common use case for docker is running a database in a container.
 
 Run
 

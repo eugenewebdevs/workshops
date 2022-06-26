@@ -10,3 +10,5 @@ const connection = createConnection({
 connection.connect((err) => {
     err ? console.error('error: ' + err.message) : console.log('Connected to the MySQL server.')
 })
+
+connection.end();
