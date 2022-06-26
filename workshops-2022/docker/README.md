@@ -57,3 +57,28 @@ If you see a return like:
 `Docker version 20.10.14, build a224086`, then you are good to go!
 
 Feel free to do the exercises at your own pace, but do each one as they are intended to build on each other.
+
+
+## Clean up
+
+Images, containers and volumes can take up a lot of space. They are also to easy to forget about. Taking a second to clear away the unneeded can win back a lot of space.
+
+There are also more drastic measures.
+
+Remove all stopped containers
+
+`docker rm -f $(docker ps -a -q)`
+
+Remove all volumes
+
+`docker volume rm $(docker volume ls -q)`
+
+Remove all images
+
+`docker rmi -f $(docker images -a -q)`
+
+Prune all the unused
+
+`docker system prune -a`
+
+`docker image prune`
