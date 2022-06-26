@@ -1,6 +1,8 @@
 version: '3.3'
 services:
   db:
+    # using this OOoooooold version of mysql because we can jsut connect with minimal code
+    # Use a newer version for projectss!!! 
     image: mysql:5.7
     restart: always
     environment:
@@ -17,7 +19,8 @@ services:
     expose:
       # Opens port 3306 on the container
       - '3306'
-      # Where our data will be persisted
+      # Where our data will be persisted. A volume holds data locally.
+      # This is persist your data when the conatiner is down
     volumes:
       - my-db:/var/lib/mysql
 # Names our volume
