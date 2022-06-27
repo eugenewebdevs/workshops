@@ -2,5 +2,5 @@ version: '3.3'
 services:
   run_things:
     environment:
-      - MY_COMPSE_LEVEL_VAR="Hello from the docker-compse file!!!"
+      - COMPOSE_LEVEL_VAR="Hello from the docker-compose file!!!"
     build: ./run

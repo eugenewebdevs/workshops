@@ -1,7 +1,14 @@
 FROM alpine:3.14
 
-ENV MESSAGE "Hello from your dockerfile"
+WORKDIR /app
 
-ENV MORE "Addrf me to your env vars!!"
+COPY script/. .
 
-CMD echo $MY_COMPSE_LEVEL_VAR && echo $MESSAGE && printenv
+ENV MESSAGE "Hello from this dockerfile"
+
+ENV MORE "Add me to this env vars?"
+
+RUN chmod +x script.sh
+RUN ./script.sh
+
+CMD echo $COMPOSE_LEVEL_VAR && echo $MESSAGE
