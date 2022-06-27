@@ -2,13 +2,12 @@
 
 ## About
 
-In a docker file we have the opportunity to run commands\ during the building
+In a docker file we have the opportunity to run commands during the building.
 
-In most case we are going to use `RUN`.
+We can also instantiate environment variables for the container to use.
 
-We can also instantiation environment variables for the container to use.
+For this we use `ENV`
 
-For thi we use `ENV`
+We can also pass vars down from a docker compose file.
 
-
-
+In this case we will echo them all out with `CMD`.
