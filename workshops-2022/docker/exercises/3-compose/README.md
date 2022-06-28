@@ -6,7 +6,7 @@ No that we have a few images created we can now create a docker-compose file to 
 
 This file is a YAML file that defines the composition of our application.
 
-If you use the Linux operating system, Install Docker Compose. https://docs.docker.com/compose/install/
+> If you use the Linux operating system, Install Docker Compose. https://docs.docker.com/compose/install/
 
 In this directory run the following command 
 

@@ -4,7 +4,7 @@
 
 Let's run docker containers. Just a simple "Hello" application. 🔰
 
-This is a very simple application in Go. Since docker will load the go environment we need there is no need to install go on your machine. When you run the container it will run the application.
+This is a very simple application in Go. Since docker will load the go environment we need there is no need to install Go on your machine. When you run the container it will run the application.
 
 ## Required
 
@@ -14,7 +14,7 @@ This is a very simple application in Go. Since docker will load the go environme
 
 Make sure docker is running.
 
-In the exercise-1-hello directory run the docker command:
+In the exercises/1-hello directory run the docker command:
 
 `docker build ./ -t hello`
 
@@ -31,7 +31,7 @@ We can now see the image in the docker images list.
 
 `docker images`
 
-There will be an images named `hello`
+There will be an image named `hello`
 
 Then to run a container
 
@@ -66,8 +66,8 @@ This will return something like:
 
 docker will let you know if a container is up or down. This will also show the ports that are mapped. An ID is a unique identifier for the container. This can be used in place of a name for commands.
 
-We can now stop the container:
+We can now stop the container using it's name:
 
-`docker stop hello`
+`docker stop goofy_roentgen`
 
 You now have run a docker container! 🚀

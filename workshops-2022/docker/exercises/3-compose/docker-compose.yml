@@ -6,10 +6,10 @@ version: '3.4'
 # We get the build directory and map ports
 services:
  hello:
-    build: ../exercise-1-hello
+    build: ../1-hello
     ports:
           - "8080:8080"
  dockerize:
-    build: ../exercise-2-dockerize
+    build: ../2-dockerize
     ports:
           - "80:80"
