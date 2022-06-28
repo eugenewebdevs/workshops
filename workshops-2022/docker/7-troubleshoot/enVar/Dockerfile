@@ -1,7 +1,7 @@
 FROM alpine:3.14
 
-ADD bootstrap.sh .
+# set some env vars
+ENV MORE "Add me to these env vars?"
 
-RUN chmod +x /bootstrap.sh
-
-CMD sh bootstrap.sh
+# print all all the env vars
+CMD echo $MESSAGE && printenv
