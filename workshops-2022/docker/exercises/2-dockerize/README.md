@@ -50,6 +50,6 @@ While we can change things in the container to make changes, we should not do th
 
 Instead we should use run the application locally. Make changes then build an image to share.
 
-Other wise the changes will not be sharable via up;loading an image to the docker hub.
+Otherwise the changes will not be sharable via docker run or docker compose up.
 
 Type `exit` to exit the container.
