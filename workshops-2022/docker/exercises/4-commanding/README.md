@@ -8,7 +8,7 @@ We can also instantiate environment variables for the container to use.
 
 For this we use `ENV` in your DOckerfile.
 
-We can also pass vars down from a docker compose file.
+We can also pass vars down from the `docker-compose.yaml`.
 
 This example passes env vars in both ways.
 

@@ -30,8 +30,8 @@ Feel free to do the exercises at your own pace, but do each one as they are inte
 
 ## Docker Vocab
 
-- containers: containers hold the programming language and code. This is like a server, but not really... more on that.
-- images: an image is what is produced from a docker file. Containers can be built from images
+- images: an image is what is produced from a docker file, including language platform, libraries, and code
+- containers: a running instance of an image. This is like a server, but not really... more on that.
 
 ## Use
 
