@@ -1,10 +1,10 @@
-import { createConnection } from 'mysql';
+import {createConnection} from 'mysql';
 
 const connection = createConnection({
-    host: 'localhost',
-    user: 'user',
-    password: 'eugewebdevs',
-    database: 'db'
+    host: process.env.MYDSQL_HOST,
+    database: process.env.MYSQL_DATABASE,
+    user: process.env.MYSQL_USER,
+    password: process.env.MYSQL_PASSWORD,
 })
 
 connection.connect((err) => {
