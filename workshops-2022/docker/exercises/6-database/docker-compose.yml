@@ -17,12 +17,6 @@ services:
       - ./.env
     volumes:
       - data:/var/lib/mysql
-  app:
-    build: ./app
-    env_file:
-      - ./.env
-    depends_on:
-      - db
 # Names our volume
 volumes:
   data: 
