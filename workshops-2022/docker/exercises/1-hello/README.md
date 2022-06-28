@@ -2,9 +2,19 @@
 
 ## About
 
-Let's run docker containers. Just a simple "Hello" application. 🔰
+Let's run docker containers!
+
+Pull and run someone else's container. Here is mine!
+
+`docker pull antonioortegajr/html-server-image:latest`
+
+Now lets run one form a Dockerfile
+
+Just a simple "Hello" application. 🔰
 
 This is a very simple application in Go. Since docker will load the go environment we need there is no need to install go on your machine. When you run the container it will run the application.
+
+
 
 ## Required
 
