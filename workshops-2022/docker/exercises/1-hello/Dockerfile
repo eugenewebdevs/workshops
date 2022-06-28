@@ -1,5 +1,5 @@
-# Create build stage based on buster image
-FROM golang:1.18-alpine as builder
+# Bring in go
+FROM golang:1.18-alpine
 # Create working directory under /app
 WORKDIR /app
 # Simpley COPY over Go source code. NOT the same as ADD. 

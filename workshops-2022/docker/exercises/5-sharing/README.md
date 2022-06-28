@@ -25,7 +25,3 @@ Push image from exercise 2 to dockerhub
 Invite someone to run your container! Should be:
 
 `docker pull yourDockerHubUserName/html-server-image:latest`
-
-Pull and run someone else's container. Here is mine!
-
-`docker pull antonioortegajr/html-server-image:latest`

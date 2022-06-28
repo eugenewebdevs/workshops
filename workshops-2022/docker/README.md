@@ -17,7 +17,7 @@ The goal of this workshop is top complete the following:
 - Have someone pull run your application 🐳
 - Create an application in a container that accesses a database in a separate container 🐳
 
-This workshop will be done in command line. Docker does provide a GUI , but to make this resource reusable in the future dockeer caommands will be used.
+This workshop will be done in command line. Docker does provide a GUI , but to make this resource reusable in the future docker caommands will be used.
 
 Feel free to do the exercises at your own pace, but do each one as they are intended to build on each other.
 
@@ -52,7 +52,7 @@ Run the following commands to be sure docker is installed:
 
 `docker --version`
 
-If you see a return like:
+If you see a return something like:
 
 `Docker version 20.10.14, build a224086`, then you are good to go!
 
