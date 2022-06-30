@@ -1,0 +1,6 @@
+version: '3.3'
+services:
+  run_things:
+    environment:
+      - COMPOSE_LEVEL_VAR="Hello from the docker-compose file!!!"
+    build: ./run
