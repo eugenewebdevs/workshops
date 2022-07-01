@@ -1,5 +1,7 @@
 # Simple Docker Workshop
 
+# Slides: https://slides.com/d/e7GBZF8/live
+
 ## About
 
 Docker has become the go to container service in the current web dev industry.
