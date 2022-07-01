@@ -2,14 +2,14 @@
 version: '3.4'
 
 # These are the services we created earlier
-# We can name the service whatever we like. 
+# We can name the service whatever we like.
 # We get the build directory and map ports
 services:
- hello:
+  hello:
     build: ../1-hello
     ports:
-          - "8080:8080"
- dockerize:
+      - "8080:8080"
+  dockerize:
     build: ../2-dockerize
     ports:
-          - "80:80"
+      - "80:80"

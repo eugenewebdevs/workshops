@@ -2,7 +2,7 @@
 FROM golang:1.18-alpine
 # Create working directory under /app
 WORKDIR /app
-# Simpley COPY over Go source code. NOT the same as ADD. 
+# Simply COPY over Go source code. NOT the same as ADD.
 # ADD has  features like extracting TAR files and fetching files from remote URLs
 COPY hello/. .
 # Install any required modules

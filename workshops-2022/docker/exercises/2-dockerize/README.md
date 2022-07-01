@@ -2,7 +2,7 @@
 
 ## About
 
-In this exercise let's set up a simple html page. Then dockerize it and run on an nginx image. 
+In this exercise let's set up a simple html page. Then dockerize it and run on an nginx image.
 
 1. In this directory, create a file called `Dockerfile` (no extension) with the following content
 2. Add `FROM nginx:alpine` as the first line to bring in that image
@@ -18,11 +18,11 @@ In the Dockerfile we are using the `FROM` command to bring in the nginx image.
 
 This is an image provided on docker hub.
 
-We copy the code from out local machine into the image.
+We copy the code from our local machine into the image.
 
-This is the Copy command. From the directory htmlApp. All files ar copied using the `.` command.
+This is the COPY command. From the directory htmlApp. All files are copied using the `.` argument.
 
-We copy the contents into the expect directory for nginx. Using the `/usr/share/nginx/html` command.
+We copy the contents into the expect directory for nginx. Using the `/usr/share/nginx/html` argument.
 
 Building the image stores all the copied code in the image. Running the image starts the container.
 
@@ -40,11 +40,11 @@ Now let's ssh into the container using the name or the ID we saw from `docker ps
 
 `docker exec -it <docker container name or ID> sh`
 
-You are now free to explore the container contents. This is a linux container to normal commands like
+You are now free to explore the container contents. This is a linux container so normal commands like
 
 `ls`
 
-are available. Keep in mind that the container may or may not tools, editors, packages, etc installed. This is up to the creator of the image we are using.
+are available. Keep in mind that the container may or may not have tools, editors, packages, etc installed. This is up to the creator of the image we are using.
 
 While we can change things in the container to make changes, we should not do that.
 

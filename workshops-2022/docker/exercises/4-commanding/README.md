@@ -2,7 +2,7 @@
 
 ## About
 
-In a docker file we have the opportunity to run commands during the building.
+In a docker file, we have the opportunity to run commands during the building.
 
 We can also instantiate environment variables for the container to use.
 
