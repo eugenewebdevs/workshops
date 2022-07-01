@@ -2,13 +2,13 @@
 
 ## About
 
-No that we have a few images created we can now create a docker-compose file to run them. 🐙 
+Now that we have a few images created we can now create a docker-compose file to run them. 🐙
 
 This file is a YAML file that defines the composition of our application.
 
 > If you use the Linux operating system, Install Docker Compose. https://docs.docker.com/compose/install/
 
-In this directory run the following command 
+In this directory run the following command :
 
 `docker compose up`
 
@@ -23,6 +23,6 @@ and
 
 control + c to stop the services.
 
-To remove the containers
+To remove the containers:
 
-`docker composes down`
+`docker compose down`

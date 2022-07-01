@@ -2,7 +2,7 @@ version: '3.8'
 services:
   db:
     # using this OOoooooold version of mysql because we can jsut connect with minimal code
-    # Use a newer version for projectss!!! 
+    # Use a newer version for projectss!!!
     image: mysql:5.7
     restart: always
     ports:
@@ -19,4 +19,4 @@ services:
       - data:/var/lib/mysql
 # Names our volume
 volumes:
-  data: 
+  data:

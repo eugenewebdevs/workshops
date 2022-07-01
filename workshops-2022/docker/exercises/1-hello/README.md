@@ -43,7 +43,7 @@ We can now see the image in the docker images list.
 
 There will be an image named `hello`
 
-Then to run a container
+Then, to run a container:
 
 `docker run -d -p 8080:8080 -t hello`
 
@@ -68,7 +68,7 @@ To see containers running on your machine:
 
 (add -a to see all containers even if they are not running)
 
-This will return something like: 
+This will return something like:
 
 `CONTAINER ID   IMAGE     COMMAND    CREATED          STATUS          PORTS                    NAMES`
 
