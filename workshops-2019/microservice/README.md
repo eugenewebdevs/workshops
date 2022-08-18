@@ -69,43 +69,38 @@ Things to know: There is a lot more to the IAM roles (that could a week of works
 3. Search for the IAM service and navegate to that area.
 4. Click on Roles.
 5. Click the Create Role button.
-6. Click Lambda.
-7. Choose all default settings until you are able to name the role.
-8. Name the role "workshopRole" (or something else you will rememeber).
+6. Click AWS Service.
+7. Select lambda under common use cases
+8. Choose all default settings until you are able to name the role.
+9. Name the role "workshopRole" (or something else you will rememeber). 
 
 ### Create a new Lambda
 
-9. Click on the services drop down located in the top left of the AWS page.
-10. Search for the Lambda service and navigate to that area.
-11. Click the Create Function button.
-12. Name the new lambda "workshopLambda" (or something else you will rememeber).
-13. Choose your runtime. If you choose a custom runtime like PHP or R, you will need a layer later on.
-14. Choose the IAM role we created earlier. (This is the "Exisitng Role" setting).
-15. Click the Create Function button.
+10. Click on the services drop down located in the top left of the AWS page.
+11. Search for the Lambda service and navigate to that area.
+12. Click the Create Function button.
+13. Name the new lambda "workshopLambda" (or something else you will rememeber).
+14. Choose your runtime. If you choose a custom runtime like PHP or R, you will need a layer later on.
+15. Open the change default execution role panel
+16. Choose the IAM role we created earlier. (This is the "Exisitng Role" setting).
+18. Click the Create Function button.
+19. Click the Add trigger button under function overview
+20. Select API Gateway 
+21. Select Use existing API under Intent
+22. From the search bar, select your API gateway
+23. Select deployment stage $default and Security Open from the subsequent dropdowns
+24. Press the Add button 
 
 ### Create API Endpoint via API Gateway
 
-16. Click on the services drop down located in the top left of the AWS page.
-17. Search for the API Gateway service and navegate to that area.
-18. Click the Create API buttom (leave all the other settings default).
-19. Name you new API "workshopApi" (or something else you will rememeber).
-20. Click on the Action button for a pull down.
-21. Click "Create Resource".
-22. Name you new resource "workshop" (or something else you will rememeber).
-23. Click on the resource you just created.
-24. Click "Create Resource" (leave all the other settings default).
-25. Click on the Action button for a pull down.
-26. Click "Create Method".
-27. In the pull down that appears, choose "GET".
-28. Click "Create Method".
-29. Click on the GET you just created and go to the "Integration Request" area.
-30. In the settings "Integration type" = "Lambda Function", "Lambda Region" = "us-west-2" and "Lambda Function" = the lambda you already created.
-31. Click "Mapping Templates" to expand the settings.
-32. Under "Content-Type" click "Add mapping template".
-33. Set the mapping template to "application/json".
-34. The "Generate template" area will appear and choose "Method request passthrough" from the drop down.
-35. Click on the Action button for a pull down.
-36. Click "Deploy API".
+25. Click on the services drop down located in the top left of the AWS page.
+26. Search for the API Gateway service and navegate to that area.
+27. Click the Create API button (leave all the other settings default).
+28. Name you new API "workshopApi" (or something else you will rememeber).
+29. Click the Add Integration button and select lambda from the dropdown
+30. Choose your lambda function from the "Choose a lambda function" dropdown
+31. Click next until you reach the review and create tab
+32. Press the Create button
 
 It's just that easy!
 
