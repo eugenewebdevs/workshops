@@ -65,6 +65,8 @@ Things to know: There is a lot more to the IAM roles (that could a week of works
 1. Log into your AWS account
 
 ## IAM Role
+[IAM docs](https://docs.aws.amazon.com/IAM/latest/APIReference/welcome.html)
+
 2. Click on the "Services" drop down located in the top left of the AWS page.
 3. Search for the IAM service and navegate to that area.
 4. Click on Roles.
@@ -75,6 +77,8 @@ Things to know: There is a lot more to the IAM roles (that could a week of works
 9. Name the role "workshopRole" (or something else you will rememeber). 
 
 ### Create a new Lambda
+
+[Lambda Docs](https://docs.aws.amazon.com/lambda/latest/dg/API_Reference.html)
 
 10. Click on the services drop down located in the top left of the AWS page.
 11. Search for the Lambda service and navigate to that area.
