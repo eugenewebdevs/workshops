@@ -19,7 +19,7 @@ The goal of this workshop is top complete the following:
 - Have someone pull run your application 🐳
 - Create an application in a container that accesses a database in a separate container 🐳
 
-This workshop will be done in command line. Docker does provide a GUI , but to make this resource reusable in the future docker caommands will be used.
+This workshop will be done in command line. Docker does provide a GUI , but to make this resource reusable in the future docker commands will be used.
 
 Feel free to do the exercises at your own pace, but do each one as they are intended to build on each other.
 
