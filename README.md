@@ -1,7 +1,6 @@
 # Eugene Web Devs: Workshops
 ## Current Workshop
-
-[Docker Workshop](/workshops-2022/docker/)
+... TBD
 
 ## About
 
