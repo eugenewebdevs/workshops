@@ -36,9 +36,12 @@ Applicant tracking system (ATS) are real and being used by many companies.
 
 We can run your resume through a ATS and get an evaluation. 
 
-We will use this open source project for some evaluations:
+We will use this open source project for some fun resume evaluations:
 
 https://github.com/srbhr/Resume-Matcher?tab=readme-ov-file
+
+<img width="584" alt="Screenshot 2025-01-04 at 11 46 37 AM" src="https://github.com/user-attachments/assets/d1693c9c-e9db-4fd5-ad11-a3a57a0d151b" />
+
 
 Do ADD :
 
