@@ -7,9 +7,9 @@
 
 Whether you're job hunting or looking to advance your career, this meetup provides a supportive environment to assess your professional goals and develop a strong market presence.
 
-Bring your laptop if you'd like to participate hands-on.
+Bring your laptop if you'd like to participate hands-on. 💻
 
-Topics of Discussion:
+📢 Topics of Discussion:
 
 - Modern Resume Strategy: Resumes for Applicant Tracking Systems (ATS) and showcasing your technical expertise.
 - Portfolio Development: Explore creating a compelling portfolio website that demonstrates your skills through project documentation, clean design, and professional presentation.
@@ -18,13 +18,13 @@ Topics of Discussion:
 
 This is a meet up just to discuss, plan, or maybe start on one the above, not an expectation of completion.
 
-## Resources For Dicsussions
+## Resources For Dicsussions 🗄️
 
 <img width="870" alt="Screenshot 2025-01-03 at 3 40 04 PM" src="https://github.com/user-attachments/assets/42696fc1-dbe7-486d-920b-33d46a4a3d15" />
 source: https://trueup.io/job-trend
 
 
-### AI Usage
+### AI Usage (🐘 in the room)
 
 Using AI to generate content is fine, but relying on it for everything is not.
 
@@ -38,16 +38,20 @@ We can run your resume through a ATS and get an evaluation.
 
 We will use this open source project for some fun resume evaluations:
 
-https://github.com/srbhr/Resume-Matcher?tab=readme-ov-file
+[Resume-Matcher](https://github.com/srbhr/Resume-Matcher?tab=readme-ov-file)
+
+Gives a match score on job descriptions and resume.
 
 <img width="584" alt="Screenshot 2025-01-04 at 11 46 37 AM" src="https://github.com/user-attachments/assets/d1693c9c-e9db-4fd5-ad11-a3a57a0d151b" />
 
 
+
 Do ADD :
 
-Technical skills presentation
+Technical skills presentations
 
 Project highlights and contributions
+
 
 ### Portfolio Site
 
