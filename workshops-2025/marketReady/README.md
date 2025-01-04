@@ -11,7 +11,7 @@ Bring your laptop if you'd like to participate hands-on. 💻
 
 📢 Topics of Discussion:
 
-- Modern Resume Strategy: Resumes for Applicant Tracking Systems (ATS) and showcasing your technical expertise.
+- Modern Resume Strategy: Showcasing your technical expertise to recruiters and catering your resume to Applicant Tracking Systems (ATS).
 - Portfolio Development: Explore creating a compelling portfolio website that demonstrates your skills through project documentation, clean design, and professional presentation.
 - Strategic Side Projects: Personal projects can showcase your capabilities and set you apart in the job market.
 - 2025 Skills Alignment: Review the most relevant technical skills for the year ahead, from cloud computing and AI integration to modern architecture patterns, along with crucial soft skills for technical leadership.
