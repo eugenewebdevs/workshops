@@ -20,6 +20,8 @@ This is a meet up just to discuss, plan, or maybe start on one the above, not an
 ## Resources For Dicsussions
 
 <img width="870" alt="Screenshot 2025-01-03 at 3 40 04 PM" src="https://github.com/user-attachments/assets/42696fc1-dbe7-486d-920b-33d46a4a3d15" />
+source: https://trueup.io/job-trend
+
 
 ### AI Usage
 
@@ -76,6 +78,7 @@ Let's look at some examples:
 ### Skills for 2025
 
 <img width="911" alt="Screenshot 2025-01-03 at 3 44 52 PM" src="https://github.com/user-attachments/assets/09682e04-dcda-4a7b-82f9-8b68407934e7" />
+source: https://survey.stackoverflow.co/2024/technology#most-popular-technologies-language-prof
 
 
 #### Technical Skills
