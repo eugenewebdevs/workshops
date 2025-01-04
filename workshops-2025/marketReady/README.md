@@ -75,6 +75,17 @@ Making one is a great way to get to display your experience to potential employe
 
 Let's look at some examples:
 
+ADD EXAMPLES!
+
+If you don't have a side project at the moment, maybe contribute to an open source project.
+
+If you have never done that before check out projects that want help and have issues ready for first time contributors.
+
+https://goodfirstissue.dev/
+
+Even if it's just fixing a typo it's cool to help out. Example: https://github.com/antonioortegajr/symfony-docs/commit/58e9f4a9a6984bf0ca8987e81ab5735cc946445f
+
+
 ### Skills for 2025
 
 <img width="911" alt="Screenshot 2025-01-03 at 3 44 52 PM" src="https://github.com/user-attachments/assets/09682e04-dcda-4a7b-82f9-8b68407934e7" />
