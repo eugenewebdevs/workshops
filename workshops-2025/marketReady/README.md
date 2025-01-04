@@ -17,6 +17,7 @@ Topics of Discussion:
 
 This is a meet up just to discuss, plan, or maybe start on one the above, not an expectation of completion.
 
+## Resources For Dicsussions
 
 ### AI Usage
 
