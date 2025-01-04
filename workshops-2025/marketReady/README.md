@@ -2,9 +2,20 @@
 
 ## About
 
-This workshop is designed to explore effective strategies for marketing your skills and accomplishments. The point of the meet up is to have a place to check iin with community and yourself about professional goals this coming year and to start to prepare.
+2025 is here! We meant to update our website, do side projects, etc.. AND we didn't. It's tough to find the time. So we are dedicating some time now. Join us!
 
-The following are topics to discuss and concider preparing. Not goals to acmplish at the meet up.
+Whether you're job hunting or looking to advance your career, this meetup provides a supportive environment to assess your professional goals and develop a strong market presence.
+
+Bring your laptop if you'd like to participate hands-on.
+
+Topics of Discussion:
+
+- Modern Resume Strategy: Resumes for Applicant Tracking Systems (ATS) and showcasing your technical expertise.
+- Portfolio Development: Explore creating a compelling portfolio website that demonstrates your skills through project documentation, clean design, and professional presentation.
+- Strategic Side Projects: Personal projects can showcase your capabilities and set you apart in the job market.
+- 2025 Skills Alignment: Review the most relevant technical skills for the year ahead, from cloud computing and AI integration to modern architecture patterns, along with crucial soft skills for technical leadership.
+
+This is a meet up just to discuss, plan, or maybe start on one the above, not an expectation of completion.
 
 
 ### AI Usage
