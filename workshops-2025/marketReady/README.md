@@ -10,6 +10,8 @@ Bring your laptop if you'd like to participate hands-on.
 
 Topics of Discussion:
 
+<img width="870" alt="Screenshot 2025-01-03 at 3 40 04 PM" src="https://github.com/user-attachments/assets/42696fc1-dbe7-486d-920b-33d46a4a3d15" />
+
 - Modern Resume Strategy: Resumes for Applicant Tracking Systems (ATS) and showcasing your technical expertise.
 - Portfolio Development: Explore creating a compelling portfolio website that demonstrates your skills through project documentation, clean design, and professional presentation.
 - Strategic Side Projects: Personal projects can showcase your capabilities and set you apart in the job market.
@@ -72,6 +74,9 @@ Making one is a great way to get to display your experience to potential employe
 Let's look at some examples:
 
 ### Skills for 2025
+
+<img width="911" alt="Screenshot 2025-01-03 at 3 44 52 PM" src="https://github.com/user-attachments/assets/09682e04-dcda-4a7b-82f9-8b68407934e7" />
+
 
 #### Technical Skills
 
