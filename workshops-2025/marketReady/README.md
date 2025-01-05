@@ -46,7 +46,12 @@ Gives a match score on job descriptions and resume.
 
 <img width="584" alt="Screenshot 2025-01-04 at 11 46 37 AM" src="https://github.com/user-attachments/assets/d1693c9c-e9db-4fd5-ad11-a3a57a0d151b" />
 
-
+<details>
+  <summary>To run this locally</summary>
+  - Use Python 3.11 for your venv: <code>python3.11 -m venv venvname</code> </br>
+  - If you run into an nltk error, reference <a href="https://github.com/srbhr/Resume-Matcher/issues/298">this issue</a>.<br>
+  - Otherwise follow the intructions on the <a href="https://github.com/srbhr/Resume-Matcher">Github Repo</a>.
+</details>
 
 Do ADD :
 
