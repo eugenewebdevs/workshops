@@ -1,5 +1,5 @@
-# Market Ready
-## [MeetUp Title](https://www.meetup.com/eugenewebdevs/events/305011098/)
+# New Year Career Market Ready
+
 ## [Meet up link](https://www.meetup.com/eugenewebdevs/events/305011098/)
 
 ## About
