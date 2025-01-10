@@ -1,5 +1,6 @@
 # Market Ready
-## MeetUp Title
+## [MeetUp Title](https://www.meetup.com/eugenewebdevs/events/305011098/)
+## [Meet up link](https://www.meetup.com/eugenewebdevs/events/305011098/)
 
 ## About
 
